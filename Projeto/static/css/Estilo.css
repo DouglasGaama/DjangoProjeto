@@ -1,0 +1,502 @@
+
+
+.navbar-light .navbar-nav .nav-link {
+	color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px grey;
+  z-index: 1;
+}
+.icones a{
+	display: block;
+	width: 32px;
+	height: 32px; 
+}
+.icones li{
+	display: inline-block;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.icones a[href='https://www.instagram.com/lajes_tocantins/']{
+	background-image: url('/static/img/instacinza.png');
+	background-size: 32px 32px;
+
+}
+.icones a[href="https://api.whatsapp.com/send?phone=556332142400&text=Boa%20tarde!,"]{
+	background-image: url('/static/img/whatrodape.png');
+	background-size: 32px 32px;
+
+}
+.icones a[href="https://www.facebook.com/lajestocantins"]{
+	background-image: url('/static/img/facebook.png');
+	background-size: px 32px;
+}
+
+.copy
+{
+	color: #FFFFFF
+}
+
+.logo
+{
+  display: block;
+  width: 200px;
+  height: 100px; 
+}
+
+.misaovalorvisao
+{
+	width: 120px;
+	height: 120px;
+
+
+}
+.misaovalorvisaotext
+{
+	position: absolute;
+  width: 200px;
+  height: 200px;
+  text-align: justif;
+  
+
+}
+
+
+.iconeslogo 
+li{
+	display: inline-block;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+.iconeslogo2
+li{
+	display: inline-block;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	
+
+}
+.orca 
+{
+	padding-bottom: 2rem;
+	
+}
+
+.iconecontato 
+li{ display:inline-block;
+	margin-bottom: 1rem;
+	
+}
+
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+  bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+  background: #a3a3a3;
+  border-radius: 100%;
+  width: 20px;
+  height: 0.1px;
+  display: inline-block;
+}
+
+.blog .carousel-indicators .active {
+  background: #707070;
+}
+
+
+
+
+
+
+
+
+
+.content{display:flex;justify-content: flex-end}
+.contato{width: 100%; max-width: 500px}
+.form{display: flex;flex-direction: column}
+.field{padding: 10px; margin-bottom: 15px; border: 1px solid #d6d6d6; border-radius: 5px; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+.textarea{height: 300px;}
+
+.menuuu{display:flex;justify-content: flex-end}
+
+
+
+
+
+.box {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+
+.box:hover {
+  background-color: green;
+  
+}
+
+
+.Info-prod h4 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  color: #0e2959;
+  text-transform: capital letters;
+  font-size: 10px;  
+}
+
+.Info-prod a:hover
+{
+
+ text-decoration:none;
+
+}
+
+
+
+div.figure {
+  float: right;
+  width: 30%;
+
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+
+  text-indent: 0;
+
+}
+img.scaled {
+  width: 100%;
+}
+
+
+.texttttt {
+  float: right;
+  width: 30%;
+
+  margin: 0.5em;
+  padding: 0.5em;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}
+
+
+.orçamentoaaa
+{
+
+  height: 150px;
+}
+.Soli h2
+{
+ padding-top: 60px;
+ color: white;
+ text-align: center;
+ 
+ font-family: 'Mitr', sans-serif;
+ font-size: 26px;
+ text-indent: 0;
+}
+
+.Soli2 h2
+{
+
+  color: black;
+  font-family: 'Mitr', sans-serif;
+
+  
+  font-size: 30px;
+  
+}
+
+
+.FontenomeGrande h3
+{
+	font-family: 'Mitr', sans-serif;
+}
+
+
+.FontenomeGrande h2
+{
+  font-family: 'Mitr', sans-serif;
+}
+
+#produto h2 {
+	font-family: 'Mitr', sans-serif;
+  font-weight: 700;
+
+  color: #343a40;
+}
+
+#produto h3 {
+  font-family: 'Mitr', sans-serif;
+  font-weight: 700;
+
+  color: #343a40;
+}
+
+
+#produto p {
+ font-family: 'Titillium Web', sans-serif;
+
+ color: #343a40;
+ 
+
+
+}
+
+.fontetexto h5{
+	font-family: 'Kanit', sans-serif;
+}
+.fontetexto h4{
+  font-family: 'Kanit', sans-serif;
+
+}
+.fontetexto h3{
+  font-family: 'Kanit', sans-serif;
+
+}
+.fontetexto h2{
+  font-family: 'Kanit', sans-serif;
+
+}
+
+
+
+#produto a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+
+.tamanhobox
+h5
+{
+	text-indent: 20px;
+
+}
+
+.espa
+{
+	height: 15px;
+}
+
+
+
+
+
+.bbtn123 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bbtn123:hover a {
+  background-color: #000;
+
+}
+
+
+.bbtn123:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#imgempresa imgemp{
+	position: relative;	
+	top: 100px;
+}
+
+#imgempresa textem {
+  position: relative;
+ 
+}
+
+#imgempresa .conteudo {
+  display: table;
+}
+
+#imgempresa .imgemp {
+  display: table-cell;
+  float: left;
+}
+#imgempresa .textem {
+  display: table-cell;  
+  width: 1800px;
+}
+
+#imgempresa .textem h4{
+  margin-left: 20px;
+  margin-right:20px;
+  min-height: 50px;
+  max-height: 400px;
+  
+  max-width: 800px;
+  min-width: 400px;
+
+}
+#imgempresa .textem h2{
+  margin-left: 20px;
+}
+
+
+.bbtn123456 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bbtn123456 span after {
+
+  position: absolute;
+  opacity: 0;
+  top: 0;
+
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bbtn123456:hover span {
+  transform: scale(1.1,1.1);
+
+}
+.bbtn123456:hover a {
+  background-color: #000;
+
+}
+
+#telainicial .btn252530:hover{
+  background-color: grey;
+  bottom: 25px
+}
+
+.btnempresa {
+  color: white;
+  background-color: black;  
+  border: none;
+  width: 150px;    
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 25px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+
+.bbtn123456 span {
+  width: 0px;
+}
+
+#imgempresa .bbtn123456{
+
+  margin-left: 20px;
+}
+
+
+#slidecont .contSl {
+  display: table;
+  max-width: 1000px;
+}
+
+#slidecont .slide2 {
+  display: table-cell;
+  float: left;
+}
+#slidecont .slidetext {
+  display: table-cell;
+  float: left;
+  width: 300px;
+
+  
+}
+
+.lista-mask ul {
+
+  list-style-image: url('/static/img/proximo.png');
+
+
+
+}
+
+
+.lista-mask li{
+
+  margin-bottom: 15px;
+}
+
+.slide12 {
+  display: inline-block;
+}
+
+
+
+
+.bbtnTRE span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.bbtnTRE span:after{
+
+  position: absolute;
+  opacity: 0;
+  top: 0;
+
+  right: -20px;
+  transition: 0.5s;
+}
+
+
+
+.bbtnTRE:hover span {
+  transform: scale(1.1,1.1);
+}
+.bbtnTRE:hover a {
+  background-color: #000;
+
+}
+
+
+.bbtnTRE:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.TextoAltura85{
+ min-height: 80px;
+ max-height: 140px;
+}
+
+.QuemSOmosAltura{
+  white-space: nowrap;
+}

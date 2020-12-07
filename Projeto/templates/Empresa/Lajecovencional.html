@@ -1,0 +1,159 @@
+{% extends 'Empresa/base.html'  %}
+
+{% block content %}
+
+<section id="slidecont" class="mt-4 container animat-up">
+		<div class="contSl">
+			<div class="slide2" style="max-width: 500px; ">
+				<div class="w3-content w3-display-container">
+					<img class="mySlides" src="/static/img/lajetrelicada.png" style="width:100%">
+					
+					<img class="mySlides" src="/static/img/lajeTreliçadapr.png" style="width:100%">
+	
+
+					<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+					<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+				</div>
+
+
+			</div>
+
+			<div class="slidetext FontenomeGrande animat-up" style="max-width: 500px; margin-left: 30px;">
+
+				<h2>
+					LAJE COVENCIONAL
+				</h2 >
+				<div style="background-color: #0466bd; width: 50px; height: 4px;"></div>					
+				<div class="mt-3" style="text-align: justify; width: 400px;">
+					<p >
+						A Laje Treliçada ou Pré Moldada pode ser utilizada em qualquer tipo de estrutura, oferecendo praticidade e agilidade na montagem.
+						A Laje Treliçada é um elemento pré fabricado composto de uma base de concreto estrutural e armação treliçada, e recebe enchimento de cerâmica ou EPS.
+					</p>
+				</div>
+
+			</div>
+
+		</div>
+		<div class="FontenomeGrande animat-up" style="margin-left: 30px;"  >
+			<h2 >
+				VANTAGENS
+			</h2 >
+			<div style="background-color: #0466bd; width: 50px; height: 4px;"></div>		
+			<div class="lista-mask">
+				<ul class="mt-3 lista-mask" style="max-width: 700px;">
+
+					<li>Armação triangular, eletrosoldada, em Aço CA 60 Nervurado, que permite total aderência ao concreto e ao capeamento, eliminando possibilidades de trincas.</li>
+					<li>Capaz de vencer grandes vãos (até 7,00 mts) e suportar altas cargas com segurança.</li>
+					<li>Diminuir o uso de escoras e elimina formas.</li>
+					<li>Permite a distribuição de paredes diretamente sobre laje, fazendo-se previamente as definições necessárias.</li>
+					<li>Possibilta reduzir a quantidade de pilares e vigas na estrutura.</li>
+					<li>Reduz o custo final da estrutura em até 40%, entre economia de: aço, concreto, madeira, mão-de-obra e tempo de execução.</li>
+
+				</ul>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section style="background-color: #343a40;" class="orçamentoaaa mt-4 animat-up">
+		<div class="mt-5 container justify-content-center Soli">
+			<h2 style="text-align: center;">
+				SOLICITE SEU ORÇAMENTO AGORA
+			</h2>
+		</div>
+
+	<a href="#" class="bbtnTRE container content justify-content-center" style="    width: 230px;" >
+		<span>	
+			<button type="button" class="btn123 btnTRE btn-default">ENTRE EM CONTATO</button>
+		</span>
+	</a>
+</div>
+	
+</div>
+</section>
+
+
+
+
+<section ><!-- Parceiros -->
+	<div id="produto" class="mt-5 animat-up">
+		<div class="container "> 
+			<h2 class="content justify-content-center ">
+
+
+				FORNECEDORES
+
+
+			</h2>
+			<div class="content justify-content-center" >
+				<h4 style="text-align: center;"> 
+					Trabalhamos com os melhores fornecedores para garantir o melhor produto.
+				</h4>
+			</div>
+
+			<!------ Include the above in your HEAD tag ---------->
+
+			<div class="container mt-5 animat-up">
+				<div class="w3-row-padding w3-section blog">
+					<div class="col-md-12">
+						<div id="blogCarousel" class="carousel slide" data-ride="carousel">												
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<div class="row">
+										<div class="w3-col s4">
+											<a href="#">
+												<img src="/static/img/isofort.png" alt="Image" style=" height: 90px; ">
+											</a>
+										</div>
+										<div class="w3-col s4">
+											<a href="#">
+												<img src="/static/img/arcelormittals.jpg" alt="Image" style="height: 90px;">
+											</a>
+										</div>
+										<div class="w3-col s4">
+											<a href="#">
+												<img src="/static/img/vatorantin.jpg" alt="Image" style="height: 85px;">
+											</a>
+										</div>										
+									</div>									
+								</div>				
+
+							</div>								
+						</div>				
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+		showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+		var i;
+		var x = document.getElementsByClassName("mySlides");
+		if (n > x.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = x.length}
+				for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				}
+				x[slideIndex-1].style.display = "block";  
+			}
+		</script>
+
+
+
+
+
+
+{% endblock content %}
